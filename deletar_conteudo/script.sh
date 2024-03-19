@@ -23,7 +23,7 @@ for dir in "$diretorio"/*; do
     # Verifica se o caractere especificado está presente no nome base do diretório
     if [[ -d "$dir" && "$nome_dir" == *"$caracter"* ]]; then
         # Remove todo o conteúdo do diretório
-        rm -rf "$dir"
+        rm -rf "$dir"/*
         echo "Conteúdo deletado em: $dir"
     fi
 done
