@@ -1,0 +1,1 @@
+Boas!! Fiquei na dúvida de qual era o objetivo se era eleminar o diretório em si ou o contéudo que nele existe por isso fica ai o script.sh que elimina o contéudo dentro do diretório e o script2.sh que deleta o diretório em si
